@@ -2,5 +2,18 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
+    background-color: rgb(250, 185, 250);
 }
 
+h1{
+    color: rgb(70, 11, 67);
+}
+
+a {
+    color: rgb(116, 14, 110);
+}
+
+
+h1, p, div{
+    text-align: center;   
+}
