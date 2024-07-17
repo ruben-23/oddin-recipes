@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
@@ -9,6 +13,7 @@ body {
 
 h1, h2, h3 {
     color: rgb(70, 11, 67);
+    margin: 10px 0;
 }
 
 a {
@@ -18,8 +23,23 @@ a {
 ul, ol {
     display: inline-block;
     text-align: left;
+    border: 5px dotted rgb(63, 4, 63);
+    padding:40px;
 }
 
 h1, h2, div {
     background-color: rgb(196, 149, 223, 0.6);
+    width: 800px;
+    margin: 10px auto;
+}
+
+.image {
+    margin: 10px 0;
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+.info, 
+.list{
+    padding: 5px 10px;
 }
